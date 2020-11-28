@@ -118,11 +118,19 @@ To run ```sample_input.txt```, present in this repository
 ```
 ~/parking-lot-problem$ python -m src.main sample_input.txt 
 ```
+or
+```
+~/parking-lot-problem$ python3 -m src.main sample_input.txt 
+```
 
 ### Tests
 There are 6 tests written to test all the functions of class ```ParkingLot```. To run the test file:
 ```
 ~/parking-lot-problem$ python -m unittest tests.test
+```
+or
+```
+~/parking-lot-problem$ python3 -m unittest tests.test
 ```
 which produces the following output:
 ```
