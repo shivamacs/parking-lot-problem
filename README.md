@@ -30,13 +30,13 @@ park_vehicle(number, age) :
 - parks a vehicle with given registration number belong to a driver of given age
 - returns a valid slot number if there is an empty slot available
 - returns -1 if vehicle cannot be parked
-- time complexity : O(1)
+- time complexity : O(log(n))
 
 vacate_slot(slot) :
 - vacates the vehicle at given slot number if present 
 - returns a list of the form [vehicle number, slot]
 - returns empty list if slot is already vacant
-- time complexity : O(1)
+- time complexity : O(log(n))
 
 get_slot_numbers_for_drivers_of_age(age) :
 - returns a list of slot number(s) alloted to the driver(s) of given age
