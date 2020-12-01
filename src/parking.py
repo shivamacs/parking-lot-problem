@@ -32,7 +32,7 @@ class ParkingLot:
     def park_vehicle(self, number, age):
         '''
         Park car with given vehicle registration number and age of the driver.
-        Returns a slot in O(1) time complexity.
+        Returns a slot in O(log(n)) time complexity.
 
         Parameters
         ----------
@@ -58,7 +58,7 @@ class ParkingLot:
 
     def vacate_slot(self, slot):
         '''
-        Vacates the given slot from the parking lot in O(1) time complexity.
+        Vacates the given slot from the parking lot in O(log(n)) time complexity.
 
         Parameters
         ----------
